@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC - Atividade.fit</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Atividade.fit</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="alimentacao.html">Alimentação</a>
+        <a href="calculadora.html">Calculadora IMC</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="calculadora">
+
+<h2>Calculadora de IMC</h2>
+
+<p>
+Descubra seu Índice de Massa Corporal de forma rápida e prática.
+</p>
+
+<p>Peso (kg)</p>
+
+<input type="number" id="peso" placeholder="Ex: 70">
+
+<p>Altura (m)</p>
+
+<input type="number" id="altura" step="0.01" placeholder="Ex: 1.75">
+
+<button onclick="calcularIMC()">Calcular IMC</button>
+
+<p id="resultado"></p>
+
+</section>
+
+</main>
+
+<script src="calculadora.js"></script>
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/index.css">
+</body>
+</html>
