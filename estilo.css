@@ -1,0 +1,390 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#c1c7d1;
+    color:#333;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+header h1{
+    color:#16a34a;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    margin-left:20px;
+    font-weight:600;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(135deg,#16a34a,#22c55e);
+    color:white;
+}
+
+.hero h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+}
+
+button{
+    margin-top:25px;
+    padding:14px 30px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#16a34a;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.sobre{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.sobre p{
+    max-width:800px;
+    margin:auto;
+    margin-top:20px;
+}
+
+.beneficios{
+    padding:80px 10%;
+}
+
+.beneficios h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+article{
+    background:white;
+    width:300px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+article h2{
+    margin-bottom:15px;
+    font-size:1.2rem;
+}
+
+article h3{
+    color:#16a34a;
+    cursor:pointer;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.alimentacao{
+    padding:80px 10%;
+    background:#e8e6e6;
+}
+
+.alimentacao h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+footer h2{
+    margin-bottom:15px;
+    color:#22c55e;
+}
+
+footer p{
+    margin-top:8px;
+}
+
+nav a{
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#16a34a;
+}
+
+button{
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}.banner-alimentacao{
+
+    background:linear-gradient(135deg,#16a34a,#22c55e);
+
+    color:rgb(206, 78, 78);
+
+    text-align:center;
+
+    padding:100px 20px;
+
+}
+
+.banner-alimentacao h2{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+}
+
+.banner-alimentacao p{
+
+    max-width:px;
+
+    margin:auto;
+
+    font-size:20px;
+
+}
+
+.informacoes{
+
+    padding:80px 10%;
+
+    background:#a0aa9c;
+
+}
+
+.informacoes h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.dicas{
+
+    padding:80px 10%;
+
+}
+
+.dicas h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.dicas ul{
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    line-height:2;
+
+}.calculadora{
+
+max-width:600px;
+
+margin:80px auto;
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.calculadora h2{
+
+text-align:center;
+
+margin-bottom:20px;
+
+color:#16a34a;
+
+}
+
+.calculadora p{
+
+text-align:center;
+
+margin-bottom:30px;
+
+}
+
+.calculadora label{
+
+display:block;
+
+margin-top:20px;
+
+font-weight:bold;
+
+}
+
+.calculadora input{
+
+width:100%;
+
+padding:15px;
+
+margin-top:10px;
+
+border:1px solid #ccc;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+.calculadora button{
+
+width:100%;
+
+margin-top:30px;
+
+}
+
+#resultado{
+
+margin-top:30px;
+
+text-align:center;
+
+font-size:22px;
+
+font-weight:bold;
+
+}.cronometro{
+
+    max-width:700px;
+
+    margin:80px auto;
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.cronometro h2{
+
+    color:#16a34a;
+
+    margin-bottom:20px;
+
+}
+
+#tempo{
+
+    font-size:70px;
+
+    font-weight:bold;
+
+    margin:40px 0;
+
+    color:#16a34a;
+
+}
+
+.botoes{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.botoes button{
+
+    width:170px;
+
+} 
+.categorias{
+    padding: 80px 10%;
+}
+
+.categorias h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card{
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    text-align: center;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h3{
+    color: #16a34a;
+    margin-bottom: 15px;
+}
+
+.card p{
+    line-height: 1.6;
+}
